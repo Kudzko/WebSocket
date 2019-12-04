@@ -22,6 +22,7 @@ function connect() {
             showGreeting(JSON.parse(greeting.body).content);
         });
     });
+    alert("connected");
 }
 
 function disconnect() {
@@ -48,4 +49,3 @@ $(function () {
     $( "#disconnect" ).click(function() { disconnect(); });
     $( "#send" ).click(function() { sendName(); });
 });
-
