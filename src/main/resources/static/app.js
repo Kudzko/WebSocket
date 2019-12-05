@@ -1,7 +1,7 @@
 
 let stompClient = null;
 
-alert("Hello world script working");
+
 function setConnected(connected) {
     $("#connect").prop("disabled", connected);
     $("#disconnect").prop("disabled", !connected);
